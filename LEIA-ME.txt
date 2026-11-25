@@ -1,37 +1,22 @@
-PROSPERITÁ — LANDING PAGES
+# Site Prosperitá Finanças & Contabilidade
 
-Arquivos:
-- index.html: página principal / seletor de perfil
-- mei.html: página para MEI
-- comercio.html: página para comércio e lojas
-- servicos.html: página para prestadores de serviços
-- empresas.html: página para pequenas e médias empresas
-- assets/: logo e capturas reais do aplicativo
+## Estrutura
+- `index.html`: página inicial e seleção do perfil do cliente.
+- `mei.html`: página para MEIs, incluindo emissão de NFS-e para prestadores de serviços.
+- `comercio.html`: inteligência tributária, análise fiscal, créditos e reforma tributária.
+- `servicos.html`: contabilidade para prestadores de serviços, NFS-e, fechamento trimestral e Open Finance.
+- `empresas.html`: Departamento Pessoal estratégico e prevenção de riscos trabalhistas.
+- `assets/`: identidade visual, imagens reais do aplicativo, estilos e scripts.
 
-Como visualizar:
-1. Extraia o ZIP mantendo a pasta assets junto dos arquivos HTML.
-2. Abra index.html no navegador.
-3. Use os links para navegar entre as páginas.
+## Como visualizar
+Abra `index.html` no navegador. Para publicar, envie todos os arquivos e pastas mantendo a estrutura para o GitHub Pages ou outro serviço de hospedagem estática.
 
-Formulários:
-- O formulário pede nome, WhatsApp, cidade e dados relacionados ao perfil.
-- Ao enviar, abre o WhatsApp da Prosperitá com os dados preenchidos.
-- Os botões de WhatsApp direto também abrem uma conversa com mensagem contextual.
-- Número usado: (47) 99739-0486.
-- Não há backend, CRM ou armazenamento de leads nesta versão. Para produção, conectar formulário a CRM/planilha ou endpoint seguro e configurar consentimento, política de privacidade, Pixel Meta e Google Ads.
+## Formulários e WhatsApp
+Os formulários abrem uma conversa pré-preenchida no WhatsApp geral da Prosperitá, usando o número informado nos materiais comerciais: (47) 99739-0486. Os contatos exibidos no rodapé também incluem o número de Joice: (47) 99755-9751. Confirme se o número geral deve permanecer como canal principal antes da publicação.
 
-Serviços destacados com base no PDF comercial: assessoria contábil, fiscal e departamento pessoal; assessoria financeira e tributária; consultoria especializada em contratos e acordos extrajudiciais; orientação sobre faixa tributária, fluxo de caixa e planejamento financeiro; aplicativo próprio com Open Finance e emissão de NFS-e.
-
-Conteúdo:
-- Os serviços institucionais e diferenciais foram baseados no PDF comercial fornecido.
-- A página de serviços destaca NFS-e, documentos/guias e Open Finance, conforme o material comercial e as telas do aplicativo.
-- O texto de MEI é apresentado como orientação e triagem de necessidade, sem prometer obrigações específicas não confirmadas no material comercial.
-
-
-Atualização: foi incluído o serviço de RH voltado especialmente a pequenas empresas com poucos funcionários, na página institucional e na landing page de empresas. O formulário dessa página também permite selecionar essa necessidade.
-
-
-Atualização das telas do aplicativo: as imagens agora mostram telas reais de início, documentos recebidos, notas fiscais, mensagens e pagamentos.
-
-
-Destaque do aplicativo para prestadores de serviços: emissão simplificada de NFS-e diretamente pelo app em apenas 3 passos. A página servicos.html prioriza a tela de emissão e apresenta esse benefício em destaque.
+## Observações importantes
+- A emissão pelo aplicativo é apresentada como emissão de NFS-e (serviços), não como nota fiscal de venda de mercadorias.
+- A integração Open Finance é descrita como dependente de autorização do cliente.
+- Serviços de SST são apresentados em conjunto com profissionais técnicos habilitados.
+- A página de Departamento Pessoal não promete atuação jurídica contenciosa; quando necessário, prevê encaminhamento à assessoria jurídica habilitada.
+- Antes de publicar, valide com os responsáveis da Prosperitá os textos, contatos, escopo dos serviços, condições de atendimento e eventuais informações legais.
