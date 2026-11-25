@@ -20,3 +20,7 @@ Os formulários abrem uma conversa pré-preenchida no WhatsApp geral da Prosperi
 - Serviços de SST são apresentados em conjunto com profissionais técnicos habilitados.
 - A página de Departamento Pessoal não promete atuação jurídica contenciosa; quando necessário, prevê encaminhamento à assessoria jurídica habilitada.
 - Antes de publicar, valide com os responsáveis da Prosperitá os textos, contatos, escopo dos serviços, condições de atendimento e eventuais informações legais.
+
+
+SEÇÃO DE SISTEMAS
+A página inicial agora apresenta as logos dos sistemas utilizados pela Prosperitá: Domínio Sistemas, Honorarium, MarQ HR, Nibo, SIEG e Infolex. As imagens ficam na pasta assets.
