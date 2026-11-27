@@ -12,7 +12,7 @@
 Abra `index.html` no navegador. Para publicar, envie todos os arquivos e pastas mantendo a estrutura para o GitHub Pages ou outro serviço de hospedagem estática.
 
 ## Formulários e WhatsApp
-Os formulários e CTAs abrem uma conversa pré-preenchida no WhatsApp comercial da Prosperitá: +55 (47) 99291-2735. As mensagens identificam a origem como site e informam a página de entrada do lead.
+Os formulários e CTAs abrem uma conversa pré-preenchida no WhatsApp comercial da Prosperitá: +55 (47) 9739-0486. As mensagens identificam a origem como site e informam a página de entrada do lead.
 
 ## Observações importantes
 - A emissão pelo aplicativo é apresentada como emissão de NFS-e (serviços), não como nota fiscal de venda de mercadorias.
