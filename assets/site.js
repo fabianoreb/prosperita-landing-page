@@ -1,1 +1,29 @@
-const toggle=document.querySelector('.menu-toggle');const links=document.querySelector('.nav-links');if(toggle&&links){toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.setAttribute('aria-expanded',links.classList.contains('open')?'true':'false')})}document.querySelectorAll('[data-wa-form]').forEach(form=>{form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const msg=['Olá! Encontrei a Prosperitá pelo site e gostaria de conversar.','Origem: Site Prosperitá','Nome: '+(d.get('nome')||''),'Perfil: '+(d.get('perfil')||''),'WhatsApp: '+(d.get('telefone')||''),'E-mail: '+(d.get('email')||''),'Mensagem: '+(d.get('mensagem')||'')].join('\\n');window.open('https://wa.me/554797390486?text='+encodeURIComponent(msg),'_blank')})});document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+const toggle=document.querySelector('.menu-toggle');const links=document.querySelector('.nav-links');if(toggle&&links){toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.setAttribute('aria-expanded',links.classList.contains('open')?'true':'false')})}document.querySelectorAll('[data-wa-form]').forEach(form=>{
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+
+    // Executado somente após a validação nativa dos campos obrigatórios.
+    // Dados pessoais não são enviados ao dataLayer.
+    const d=new FormData(form);
+    const profile=(d.get('perfil')||'').toString();
+
+    window.dataLayer=window.dataLayer||[];
+    window.dataLayer.push({
+      event:'google_ads_whatsapp_lead',
+      lead_type:profile,
+      page_path:window.location.pathname
+    });
+
+    const msg=[
+      'Olá! Encontrei a Prosperitá pelo site e gostaria de conversar.',
+      'Origem: Site Prosperitá',
+      'Nome: '+(d.get('nome')||''),
+      'Perfil: '+profile,
+      'WhatsApp: '+(d.get('telefone')||''),
+      'E-mail: '+(d.get('email')||''),
+      'Mensagem: '+(d.get('mensagem')||'')
+    ].join('\\n');
+
+    window.open('https://wa.me/554797390486?text='+encodeURIComponent(msg),'_blank');
+  });
+});document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
